@@ -68,12 +68,8 @@
         <div style="margin-left: 15px">
           <strong>Degree: </strong>Bachelor of Science (BS)
           <br />
-          <strong>Major 1:</strong> Computer Science
+          <strong>Major:</strong> Computer Science
           <a target="_blank" href="https://cs.kaist.ac.kr/">(CS)</a
-          ><small class="accent"> &nbsp; Aug 2018 - Aug 2022</small>
-          <br />
-          <strong>Major 2:</strong> Chemical & Biomolecular Engineering
-          <a target="_blank" href="https://cbe.kaist.ac.kr/">(CBE)</a
           ><small class="accent"> &nbsp; Aug 2018 - Aug 2022</small>
         </div>
       </ul>
@@ -89,7 +85,7 @@
           </h4>
           <ul class="list-unstyled">
             <li>
-              <strong>Blockchain Software Engineer</strong>
+              <strong>Software Engineer</strong>
               <small class="accent" id="openformat">Oct 2024 - Present </small>
             </li>
             <li><strong>Location: </strong>Singapore</li>
@@ -144,27 +140,29 @@
           <h4><a href="https://bisonai.com/" target="_blank">Bisonai</a></h4>
           <ul class="list-unstyled">
             <li>
-              <strong>Blockchain Software Engineer</strong>
-              <small class="accent" id="openformat">Sep 2023 - Present </small>
+              <strong>Software Engineer</strong>
+              <small class="accent" id="openformat"
+                >May 2023 - Oct 2024 (1 yr, 5 mo)
+              </small>
             </li>
             <li><strong>Location: </strong>Seoul, South Korea</li>
             <li><strong>Work Type: </strong>Full-time | Hybrid</li>
-            <li>
+            <!-- <li>
               <strong>Contact: </strong
               ><a
                 target="_blank"
                 href="https://www.linkedin.com/in/martinkersner/"
                 >Martin Kersner</a
               >
-            </li>
+            </li> -->
           </ul>
           <ul class="custom_list">
             <li class="justify justify_text">
-              Implemented
+              Developed
               <a target="_blank" href="https://github.com/Bisonai/orakl"
                 >Orakl</a
-              >, the Oracle for Kaia blockchain (a merger of Klaytn & Finschia,
-              subsidiaries of Kakao & Line), securing
+              >, the oracle for Kaia blockchain (Klaytn & Finschia merger,
+              subsidiaries of Kakao & Line, 250M+ active users). Secured
               <a
                 href="https://square.klaytn.foundation/Proposal/Detail?id=66"
                 target="_blank"
@@ -176,25 +174,30 @@
                 target="_blank"
                 >$350,000</a
               >
-              grant from the Kaia Foundation.
+              grants from the Kaia Foundation through investor presentations.
             </li>
             <li class="justify justify_text">
-              Scaled the Data Feeds (token price pairs) on Miko from 30 pairs to
-              over 100 pairs with subsecond data provision.
+              Built
+              <a target="_blank" href="https://datamaxiplus.com/">Datamaxi+</a>
+              backend, integrating CEX APIs and DEX contracts for real-time and
+              historical price data aggregation, enabling developer-built
+              arbitrage engines and web-based data access.
             </li>
             <li class="justify justify_text">
-              Revamped and optimized Verifiable Random Function (VRF) and
-              Request-Response (RR) services of Miko
+              Scaled Orakl data feeds from 30 to 100+ token price pairs with
+              subsecond latency; optimized block processing (50 events) from 4+
+              minutes 3 seconds via highly concurrent custom nonce manager.
             </li>
             <li class="justify justify_text">
-              Identified and resolved performance bottlenecks, reducing
-              processing time for handling 50-event blocks from over 4 minutes
-              to just 3 seconds by implementing a manual nonce manager.
+              Developed Logscribe, a Go-based service to process and prioritize
+              massive server logs, automating weekly GitHub issue creation;
+              generalized it into an internal package adopted by multiple teams,
+              enhancing company-wide operational efficiency.
             </li>
             <b>Tech Stack:</b>
             <i>
-              Go, Node.js, Solidity, Python, Postgres, Docker, Tmux, Github
-              Actions CI/CD, Kubernetes
+              Go, Node.js, Solidity, Python, PostgreSQL, BigQuery, Docker,
+              Kubernetes, Github Actions.
             </i>
           </ul>
         </div>
@@ -209,44 +212,42 @@
             <li>
               <strong>Software Engineer</strong>
               <small class="accent" id="ainomis"
-                >Jun 2022 - Sep 2023 (1 yrs, 4 mo)</small
+                >Jun 2022 - May 2023 (1 yr)</small
               >
             </li>
             <li><strong>Location: </strong>Seoul, South Korea</li>
             <li><strong>Work Type: </strong>Full-time | Remote</li>
-            <li>
+            <!-- <li>
               <strong>Contact: </strong>
               <a target="_blank" href="mailto:ceo.ai.nomis@gmail.com"
                 >Kim Si-won</a
               >
-            </li>
+            </li> -->
           </ul>
           <ul class="custom_list">
             <li class="justify justify_text">
-              Implemented the backend and database tables of the API Builder
-              feature, which served as a major part of the company’s MVP for the
-              seed funding round.
+              Designed and implemented AI Builder (MVP), including business
+              logic, databases, backend, frontend, and infrastructure,
+              contributing to successful seed funding.
             </li>
             <li class="justify justify_text">
-              Deployed over 20 open-source ML models to google cloud’s
-              Kubernetes and integrated to the main product’s backend and
-              frontend.
+              Deployed 20+ open-source ML models on Google Cloud Kubernetes,
+              integrating them into the core product backend and frontend for
+              enhanced functionality.
             </li>
             <li class="justify justify_text">
-              Developed supporting applications for internal use, such as Google
-              and Naver image scraper, model topology converter between TFJS and
-              Keras, and video to gif converter, and deployed to AWS.
+              Built internal tools (e.g., image scraper, TFJS-Keras model
+              converter) on AWS, improving team efficiency.
             </li>
             <b>Tech Stack:</b>
             <i
-              >Javascript (Node, React), Typescript, Python (Flask), AWS and GCP
-              microservices, Docker</i
-            >
+              >JavaScript (Node, React), TypeScript, Python (Flask), GCP, AWS,
+              CI/CD
+            </i>
           </ul>
         </div>
       </div>
-      <div class="row mb-3">
-        <!-- Columbia -->
+      <!-- <div class="row mb-3">
         <div class="one-half column">
           <h4>
             <a href="https://solarfuelsengineering.com/" target="_blank"
@@ -288,11 +289,45 @@
             <i>Matlab (ODE solvers), C++, Python, Bash scriptinga</i>
           </ul>
         </div>
-      </div>
+      </div> -->
       <div class="row mb-3"></div>
 
       <h2>Projects</h2>
       <div class="row">
+        <h4>
+          <a target="_blank" href="https://tokamak.network">
+            Tokamak Network
+          </a>
+        </h4>
+        <h6>Open Source Contributor, Contractor</h6>
+        <ul class="custom_list">
+          <li class="justify justify_text">
+            Contributed to the backend of the SYB project's Sequencer, a core
+            component of Tokamak Network’s Sybil-resistant Layer 2 blockchain
+            solution [<a
+              target="_blank"
+              href="https://github.com/tokamak-network/tokamak-sybil-resistance-mvp/commits/develop?author=Intizar-T"
+              >contributions</a
+            >].
+          </li>
+          <li class="justify justify_text">
+            Built scalable cloud infrastructure using AWS CDK (TypeScript) for
+            multiple microservices [<a
+              target="_blank"
+              href="https://github.com/tokamak-network/syb-mvp-infra/commits?author=Intizar-T"
+              >contributions</a
+            >].
+          </li>
+          <li class="justify justify_text">
+            Developed CI/CD pipelines via GitHub Actions for 3 microservices
+            across main and test environments, ensuring zero-downtime
+            deployments.
+          </li>
+          <b>Tech Stack:</b>
+          <i> Go, Solidity, AWS CDK (TypeScript), Docker. </i>
+        </ul>
+      </div>
+      <!-- <div class="row">
         <h4>Xmobile</h4>
         <div>
           <a target="_blank" href="https://xmobile.com.tm">
@@ -329,14 +364,21 @@
             Docker, Bash scripting
           </i>
         </ul>
-      </div>
+      </div> -->
 
       <h2>Awards</h2>
       <div class="row">
         <div class="twelve columns">
+          <strong>2025</strong> &emsp;&emsp;&emsp;&emsp;
+          <strong>UK Global Talent Visa</strong>
+          recipient (Tech Nation Endorsed)
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
           <strong>2022</strong> &emsp;&emsp;&emsp;&emsp;
           <strong>Full Scholarship</strong>
-          to the University of Chicago, PhD program
+          to the University of Chicago, PhD program (dropped out)
         </div>
       </div>
       <div class="row">
@@ -348,14 +390,7 @@
       </div>
       <div class="row">
         <div class="twelve columns">
-          <strong>2019-2020</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <strong>Merit-Based Scholarship</strong> from KAIST International
-          Student Association (KISA)
-        </div>
-      </div>
-      <div class="row">
-        <div class="twelve columns">
-          <strong>2018-2022</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <strong>2018</strong> &emsp;&emsp;&emsp;&emsp;
           <strong>Full Scholarship</strong> to KAIST
         </div>
       </div>
@@ -403,110 +438,102 @@
 
       <h2>Skills</h2>
       <div class="row">
-        <div class="three columns">
+        <div class="four columns">
           <strong>Programming</strong>
         </div>
-        <div class="nine columns">
-          C#/C++, Python, JavaScript, Go, Solidity Java, Scala
+        <div class="eight columns">
+          Go, Python, JavaScript, TypeScript, C++, Solidity
         </div>
       </div>
       <div class="row">
-        <div class="three columns">
-          <strong>Development</strong>
+        <div class="four columns">
+          <strong>Frameworks/Tools</strong>
         </div>
-        <div class="nine columns">
-          Node, Express, React, Next, Vue, Django, Dash, Flask
-        </div>
-      </div>
-      <div class="row">
-        <div class="three columns">
-          <strong>Version Control</strong>
-        </div>
-        <div class="nine columns">Git (Github, Bitbucket, Codecommit)</div>
-      </div>
-      <div class="row">
-        <div class="three columns">
-          <strong>Database</strong>
-        </div>
-        <div class="nine columns">
-          SQL (MySQL, PostgreSQL, Clickhouse), NoSQL (MongoDB, DynamoDB), Redis
+        <div class="eight columns">
+          Node.js, React, Next.js, Flask, Django, Docker
         </div>
       </div>
       <div class="row">
-        <div class="three columns">
-          <strong>ORM</strong>
+        <div class="four columns">
+          <strong>Databases/ORM</strong>
         </div>
-        <div class="nine columns">Prisma, Drizzle, SQLAlchemy</div>
+        <div class="eight columns">
+          PostgreSQL, MySQL, Redis, BigQuery, Prisma, SQLAlchemy
+        </div>
       </div>
       <div class="row">
-        <div class="three columns">
-          <strong>Assembly Language</strong>
+        <div class="four columns">
+          <strong>Cloud/CI/CD</strong>
         </div>
-        <div class="nine columns">x86-64, MIPS processors</div>
+        <div class="eight columns">
+          AWS, GCP, Kubernetes, GitHub Actions, Git, IaC (AWS CDK)
+        </div>
       </div>
       <div class="row">
-        <div class="three columns">
-          <strong>Cloud</strong>
+        <div class="four columns">
+          <strong>Working knowledge of</strong>
         </div>
-        <div class="nine columns">AWS, GCP</div>
+        <div class="eight columns">C++, Java (Kotlin), Rust</div>
       </div>
 
       <br />
 
-      <h2>Extracurriculars</h2>
-      <div class="row">
-        <div class="three columns">
-          <strong>2024 - Present</strong>
+      <!-- <div>
+        <h2>Extracurriculars</h2>
+        <div class="row">
+          <div class="three columns">
+            <strong>2024 - Present</strong>
+          </div>
+          <div class="nine columns">
+            Initiated and managing opensource e-commerce web, app development
+            project in Turkmenistan
+          </div>
         </div>
-        <div class="nine columns">
-          Initiated and managing opensource e-commerce web, app development
-          project in Turkmenistan
+        <div class="row">
+          <div class="three columns">
+            <strong>2020 - 2022</strong>
+          </div>
+          <div class="nine columns">President of KAIST Volleyball Club</div>
         </div>
-      </div>
-      <div class="row">
-        <div class="three columns">
-          <strong>2020 - 2022</strong>
+        <div class="row">
+          <div class="three columns">
+            <strong>2020</strong>
+          </div>
+          <div class="nine columns">
+            Winner of the essay contest among KAIST students on the topic
+            <a
+              href="https://caf.kaist.ac.kr/boards/view/board_research_en/472/40/"
+              target="_blank"
+              >“My Failure Story”</a
+            >
+          </div>
         </div>
-        <div class="nine columns">President of KAIST Volleyball Club</div>
-      </div>
-      <div class="row">
-        <div class="three columns">
-          <strong>2020</strong>
+        <div class="row">
+          <div class="three columns">
+            <strong>2019</strong>
+          </div>
+          <div class="nine columns">
+            Volunteered at
+            <a
+              href="https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=4914&skey=college&sval=Times+Higher+Education&list_s_date=&list_e_date=&GotoPage=1"
+              target="_blank"
+              >Times Higher Education (THE) Innovation & Impact Summit</a
+            >
+          </div>
         </div>
-        <div class="nine columns">
-          Winner of the essay contest among KAIST students on the topic
-          <a
-            href="https://caf.kaist.ac.kr/boards/view/board_research_en/472/40/"
-            target="_blank"
-            >“My Failure Story”</a
-          >
+        <div class="row">
+          <div class="three columns">
+            <strong>2018</strong>
+          </div>
+          <div class="nine columns">
+            Trained chemistry Olympiad team of Turkmenistan
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="three columns">
-          <strong>2019</strong>
-        </div>
-        <div class="nine columns">
-          Volunteered at
-          <a
-            href="https://news.kaist.ac.kr/newsen/html/news/?mode=V&mng_no=4914&skey=college&sval=Times+Higher+Education&list_s_date=&list_e_date=&GotoPage=1"
-            target="_blank"
-            >Times Higher Education (THE) Innovation & Impact Summit</a
-          >
-        </div>
-      </div>
-      <div class="row">
-        <div class="three columns">
-          <strong>2018</strong>
-        </div>
-        <div class="nine columns">
-          Trained chemistry Olympiad team of Turkmenistan
-        </div>
-      </div>
+      </div> -->
     </div>
   </body>
 
-  <script>
+  <!-- <script>
     function helper(diffDays) {}
 
     function calcWorkedPeriod(id) {
@@ -556,5 +583,5 @@
     for (let i = 0; i < jobs.length; i++) {
       totalExperienceDays += calcWorkedPeriod(jobs[i]);
     }
-  </script>
+  </script> -->
 </html>
